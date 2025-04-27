@@ -312,16 +312,10 @@ html{
     position: absolute;
     bottom: 20%;
     left: 30%;
-    margin-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
+    z-index: 3;
     border: none;
     cursor: pointer;
     background-color: white;
-    z-index: 3;
 
  
 }
@@ -334,15 +328,7 @@ html{
     .New-arrivals-container h1{
         text-align: center;
     }
-    .arrival-item button {
-        padding: 6px 10px;
-        font-size: 9px;
-        bottom: 10%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: auto; /* change from 50% to auto */
-        white-space: nowrap; /* add this line */
-    }
+
 }
 
 
