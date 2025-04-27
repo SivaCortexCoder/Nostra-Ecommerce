@@ -310,16 +310,16 @@ html{
 
 .arrival-item button {
     position: absolute;
-    bottom: 10%;
-    left: 20%;
+    bottom: 20%;
+    left: 30%;
     background-color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
-    font-size: 16px; /* <-- Increase from 5px to something readable */
+    font-size: 16px; 
     z-index: 3;
     cursor: pointer;
-    transform: translateX(-50%);
+ 
 }
 
 
@@ -332,7 +332,7 @@ html{
     }
     .arrival-item button {
         padding: 8px 16px;
-        font-size: 12px;
+        font-size: 9px;
         bottom: 10%;
         left: 50%;
         transform: translateX(-50%);
@@ -427,14 +427,14 @@ html{
 }
 .limited-offer-container-right button{
     background-color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left:1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
     border: none;
-    border-radius: 10px;
-    font-size: 1vw;
-    margin-top: 25px;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    margin-top: 10px;
     cursor: pointer;
 
 }
