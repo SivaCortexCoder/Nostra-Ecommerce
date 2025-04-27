@@ -316,6 +316,9 @@ html{
     border: none;
     cursor: pointer;
     background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
 
  
 }
@@ -425,7 +428,7 @@ html{
     padding-bottom:0.5rem;
     border: none;
     border-radius: 5px;
-    font-size: 1.5vw;
+    font-size:0.8vw;
     margin-top: 10px;
     cursor: pointer;
 
